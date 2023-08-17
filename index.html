@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/index.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="headerhitung">
+      <h1>Kalkulator Luas dan Keliling Segitiga</h1>
+    </div>
+    <ul id="navbar">
+      <li id="pindahBagian"><a class="active" href="#luas">Go to Hitung Luas</a></li>
+      <li id="pindahBagian"><a href="#keliling">Go to Hitung Keliling</a></li>
+    </ul>
+    <header>
+      <h2>Hitung Luas Segitiga</h2>
+    </header>
+    <!-- Akhir header -->
+
+    <!-- Main Section -->
+    <main>
+      <!-- Hitung luas segitiga -->
+      <section class="input-section">
+        <div class="container">
+          <picture>
+            <img src="assets/rumus-segitiga.png" alt="gambarsegitiga" />
+          </picture>
+
+          <p>
+            Rumus Menghitung Luas Segitiga yaitu:
+            <h4>L = 1/2 x a x t</h4>
+            <p>Keterangan:</p>
+            <ul>
+              <li>a =Panjang Alas Segitiga</li>
+              <li>t = Tinggi Segitiga</li>
+              <li>L = Luas Segitiga</li>
+            </ul>
+          </p>
+
+          <div class="row" id="luas">
+            <h3>Hitung Luas Segitiga</h3>
+          </div>
+          <label for="input-tinggi">Tinggi Segitiga:</label>
+          <input type="number" id="input-tinggi" name="Tinggi" placeholder="Masukan Tinggi" />
+          <label for="input-alas">Alas Segitiga:</label>
+          <input type="number" id="input-alas" name="Alas" placeholder="Masukan Alas" />
+
+          <p id="hitungLuas"></p>
+          <p id="hitungLuas1"></p>
+          <p id="hitungLuas2"></p>
+
+          <section>
+            <button onclick="hitungLuasSegitiga()">Hitung</button>
+            <button id="reset" onclick="resetLuasSegitiga()">Reset</button>
+          </section>
+        </div>
+      </section>
+      <!-- Akhir hitung luas segitiga -->
+
+      <!-- hitung keliling segitiga -->
+      <header>
+        <h2>Hitung Keliling Segitiga</h2>
+      </header>
+      <section class="input-section">
+        <div class="container">
+          <picture>
+            <img src="assets/rumus-segitiga.png" alt="gambarsegitiga" />
+          </picture>
+
+          <p>
+            Rumus Menghitung Keliling Segitiga yaitu:
+            <h4>K = S1 + S2 + S3</h4>
+            <p>Keterangan:
+              <ul>
+                <li>K = Keliling Segitiga</li>
+                <li>S1 = Sisi A</li>
+                <li>S2 = Sisi B</li>
+                <li>S3 = Sisi C</li>
+              </ul>
+            </p>
+          </p>
+          
+
+          <div class="row" id="keliling">
+            <h3>Hitung Keliling Segitiga</h3>
+          </div>
+          <label for="input-sisi1">Sisi 1:</label>
+          <input type="number" id="input-sisi1" placeholder="Masukan Sisi 1" />
+          <label for="input-sisi2">Sisi 2:</label>
+          <input type="number" id="input-sisi2" placeholder="Masukan Sisi 2" />
+          <label for="input-sisi3">Sisi 3:</label>
+          <input type="number" id="input-sisi3" placeholder="Masukan Sisi 3" />
+
+          <p id="hitungKeliling"></p>
+          <p id="hitungKeliling1"></p>
+          <p id="hitungKeliling2"></p>
+
+          <section>
+            <button onclick="hitungKelilingSegitiga()">Hitung</button>
+            <button id="reset" onclick="resetKelilingSegitiga()">Reset</button>
+          </section>
+        </div>
+      </section>
+      <!-- Akhir hitung keliling segitiga -->
+    </main>
+    <!-- Akhir main section -->
+    <footer>
+      <div class="row">
+        <h5>Create by Felix for Revou Fundamental Course</h5>
+      </div>
+    </footer>
+  </body>
+</html>

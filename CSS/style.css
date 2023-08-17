@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #525fe1;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 3px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.headerhitung {
+  background-color: #525fe1;
+  color: whitesmoke;
+  padding: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  padding: 8px;
+  border: 2px solid #068fff;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: rgb(21, 24, 197);
+}
+
+button {
+  margin-top: 16px;
+  margin-bottom: 50px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: #0079ff;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 8px 8px;
+  background-color: #ecf8f9;
+  grid-template-columns: 600px;
+  border-radius: 5px;
+}
+
+.row {
+  text-align: center;
+}
+
+picture {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #525fe1;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 3px;
+}
+
+#hitungLuas {
+  font-weight: bold;
+  font-size: 16px;
+}
+#hitungLuas1 {
+  font-weight: bold;
+  font-size: 16px;
+}
+#hitungLuas2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#hitungKeliling {
+  font-weight: bold;
+  font-size: 16px;
+}
+#hitungKeliling1 {
+  font-weight: bold;
+  font-size: 16px;
+}
+#hitungKeliling2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hitung {
+  margin-left: 200px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#pindahBagian {
+  float: left;
+}
+
+#pindahBagian a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#reset {
+  margin-left: 400px;
+}
+
+#pindahBagian a:hover {
+  background-color: #068fff;
+}
